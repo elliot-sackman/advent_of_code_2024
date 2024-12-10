@@ -16,8 +16,6 @@ def is_safe(row):
         
     return True
     
-
-
 with open('day_2.csv', 'r') as input_file:
     reader = csv.reader(input_file)
 
